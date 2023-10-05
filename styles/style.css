@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(6, 6, 6);
+}
+
+
+/*nav{
+    
+}*/
+
+.fundoNavContato
+{
+    background-color: rgb(4, 36, 58)!important;
+}
+
+span{
+    color: #FF4020;
+}
+
+a:visited{
+    color:#FF4020!important;
+}
+
+a:link{
+    color: #FF4020;
+}
+
+
+nav a:hover{
+    color: #FF4020!important;
+}
+
+
+
+
+.vertical-center {
+    min-height: 80%;
+    /* Fallback for browsers do NOT support vh unit */
+    min-height: 80vh;
+    /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+}
