@@ -1,0 +1,46 @@
+
+  .fundoNavContato
+{
+    background-color: rgb(4, 36, 58)!important;
+}
+#fundo{
+    background-image: url("");
+        height: 100vh;
+}
+
+
+a:link{
+    color:#ffffff;
+}
+
+a{
+    color: white!important;
+}
+
+   .conteudo{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   body{
+    background-color: rgb(35, 35, 35);
+       }
+  
+   .contato{
+       
+       box-shadow: 2px 17px 50px -35px #121212; 
+       border-radius:5px;
+       background-color:grey;
+       width:80%;
+       display:block;
+       margin:0 auto;
+       color:white;
+                               
+   }
+  
+
+   h3{
+        margin-top:50px;
+        color:white;
+   }
+ 

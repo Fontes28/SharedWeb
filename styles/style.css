@@ -1,16 +1,20 @@
+@font-face {
+    font-family: 'Summer';
+    src: url(../fonts/Simple\ Summer.otf) format('opentype');
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body{
-    background-color: rgb(6, 6, 6);
+    background-color: rgb(35, 35, 35);
 }
 
 
 /*nav{
     
 }*/
-
-.fundoNavContato
-{
-    background-color: rgb(4, 36, 58)!important;
-}
 
 span{
     color: #FF4020;
@@ -29,15 +33,95 @@ nav a:hover{
     color: #FF4020!important;
 }
 
-
-
-
-.vertical-center {
-    min-height: 80%;
-    /* Fallback for browsers do NOT support vh unit */
-    min-height: 80vh;
-    /* These two lines are counted as one :-)       */
-
-    display: flex;
-    align-items: center;
+.navbar-brand img{
+    width: 120px;
 }
+
+.navbar-collapse{
+    margin-left: 82%;
+}
+
+.img-thumbnail{
+    background-color: transparent;
+    border: none;
+}
+
+
+label{
+    color: white;
+    font-weight: 550;
+}
+
+i{
+    color: black;
+}
+
+.input-text{
+    position: relative;
+}
+
+.input-text input{
+    position: relative;
+    font-size: 0.8em;
+}
+
+.input-text span{
+    position: absolute;
+    top: 25%;
+    color: black;
+    pointer-events: none;
+    transform: 0.5s;
+    color: #FF4020;
+}
+
+.input-text i{
+    position: absolute;
+    top: 25%;
+    right: 4%;
+}
+
+.form-control{
+    padding-top: 3%;
+}
+
+.input-text input:valid ~ .spanMail, 
+.input-text input:focus ~ .spanMail{
+    color: #FF4020;
+    font-size: 0.8em;
+    transform: translateY(-50%);
+    right: 61.5%;
+}
+
+.input-text input:valid ~ .spanPass, 
+.input-text input:focus ~ .spanPass{
+    color: #FF4020;
+    font-size: 0.8em;
+    transform: translateY(-50%);
+    right: 60.5%;
+}
+
+.spanPass{
+    right: 66.3%;
+}
+
+.spanMail{
+    right: 67.3%;
+}
+
+h1{
+    color: #FF4020;
+    text-align: center;
+    font-family: 'Summer';
+}
+
+.main{
+    margin-top: 5%;
+}
+
+.login{
+    border-radius: 10px;
+    padding-top: 20px;
+    width: 40%;
+    border: solid white 1px;
+}
+

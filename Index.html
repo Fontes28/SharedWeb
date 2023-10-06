@@ -7,6 +7,7 @@
     <!-- Link css bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="styles/style.css">
     <title>Shar.Ed - Bem Vindoo!</title>
 </head>
@@ -22,87 +23,68 @@
 
     <nav class="navbar navbar-expand-lg border-body" data-bs-theme="dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="Index.html"><img src="images/logoSharEdwithout.png" alt="Logo shared" style="width: 100px;"></a>
+        <a class="navbar-brand" href="Index.html"><img src="images/logoSharEd_.png" alt="Logo shared"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Início</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="contato.html">Personagem</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="alunos.html">Alunos</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Perguntas
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="first.html">Pergunta 1</a></li>
-                <li><a class="dropdown-item" href="second.html">Pergunta 1 - Itens A e B</a></li>
-                <li><a class="dropdown-item" href="third.html">Pergunta 2</a></li>
-                <li><a class="dropdown-item" href="fourth.html">Pergunta 3</a></li>
-                <li><a class="dropdown-item" href="fifith.html">Pergunta 4</a></li>
-                <li><a class="dropdown-item" href="sixth.html">Pergunta 5</a></li>
-                <li><a class="dropdown-item" href="seventh.html">Pergunta 6</a></li>
-                <li><a class="dropdown-item" href="eighth.html">Pergunta 7</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="curiosidades.html">Curiosidades</a></li>
-              </ul>
+              <a class="nav-link" href="Contato.html">Contatos</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
-
-    <!-- Nav bar
-    <nav class="navbar navbar-expand-lg border-bottom border-body">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><span>Navbar</span></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"><span>Home</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Contato.html">Contato</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="">Pricing</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-            </ul>
+    <!--Fim da nav-->
+    
+    <div class="container main">
+      <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <img src="images/logoShared_.png" class="img-thumbnail foto" alt="Logo SharEd">
           </div>
-        </div>
-      </nav> 
-       Fim da nav bar-->
+
+          <div class="col-md-6 col-sm-12 login">
+            <h1>Sdrow</h1>
+            <form action="" class="needs-validation" novalidate>
+              <label for="exampleFormControlInput1" class="form-label">Email</label>
+              <div class="input-text mb-3">
+                <input type="text" class="form-control" id="exampleFormControlInput1" required>
+                <span class="spanMail">Insira seu email</span>
+                <i class="bi bi-envelope"></i>
+                <div class="invalid-feedback">
+                  Campo obrigatório!
+                </div>
+              </div>
+
+              <label for="inputPassword5" class="form-label">Senha</label>
+              <div class="input-text mb-3">
+                <input type="password" class="form-control" required>
+                <span class="spanPass">Insira sua senha</span>
+                <i class="bi bi-lock"></i>
+                <div class="invalid-feedback">
+                  Campo obrigatório!
+                </div>
+              </div>
+            </form>
+          </div>
+      </div>
+
+    </div>
+
+
+
+    <!--
     <div class="vertical-center container-fluid">
         <div class="row">
             <div class="col"></div>
             <div class="col-4">
-                <img src="images/logoSharEd.jpeg" class="img-thumbnail rounded-4" alt="Logo SharEd">
+                <img src="images/logoShared_.png" class="img-thumbnail rounded-4" alt="Logo SharEd">
             </div>
             <div class="col">
 
             </div>
-            <div class="col-lg-6 col-md-6 row-cols-sm-auto">
+            <div class="col-lg-6 col-md-6 row-cols-sm-auto shadow-lg p-3 mb-5 bg-body rounded">
                 <form>
                     <div class="mb-3 allign-middle">
                         <label for="InputEmailLogin" class="form-label">Endereço de Email</label>
@@ -113,10 +95,10 @@
                         <label for="InputPasswordLogin" class="form-label">Senha</label>
                         <input type="password" class="form-control" id="InputPasswordLogin">
                     </div>
-                    <!-- <div class="mb-3 form-check">
+                     <div class="mb-3 form-check">
                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                     <label class="form-check-label" for="exampleCheck1"></label>
-                </div> -->
+                </div> 
                     <div class="d-grid gap-2 col-10 mx-auto">
                         <button type="submit" class="btn btn-outline-danger">Entrar</button>
                     </div>
@@ -130,6 +112,28 @@
             </div>
         </div>
     </div>
+    -->
 
+
+    <script type="text/javascript">
+      (() => {
+       'use strict'
+     
+       // Fetch all the forms we want to apply custom Bootstrap validation styles to
+       const forms = document.querySelectorAll('.needs-validation')
+     
+       // Loop over them and prevent submission
+       Array.from(forms).forEach(form => {
+         form.addEventListener('submit', event => {
+           if (!form.checkValidity()) {
+             event.preventDefault()
+             event.stopPropagation()
+           }
+     
+           form.classList.add('was-validated')
+         }, false)
+       })
+     })()
+   </script>
 </body>
 </html>
