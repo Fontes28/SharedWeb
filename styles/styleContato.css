@@ -1,46 +1,40 @@
-
-  .fundoNavContato
-{
-    background-color: rgb(4, 36, 58)!important;
+.fundoNavContato {
+  background-color: #5e458c !important;
 }
-#fundo{
-    background-image: url("");
-        height: 100vh;
+nav #fundo {
+  background-image: url("");
+  height: 100vh;
 }
 
-
-a:link{
-    color:#ffffff;
+a:link {
+  color: #ffffff;
 }
 
-a{
-    color: white!important;
+a {
+  color: white !important;
 }
 
-   .conteudo{
-       display: flex;
-       justify-content: center;
-       align-items: center;
-   }
-   body{
-    background-color: rgb(35, 35, 35);
-       }
-  
-   .contato{
-       
-       box-shadow: 2px 17px 50px -35px #121212; 
-       border-radius:5px;
-       background-color:grey;
-       width:80%;
-       display:block;
-       margin:0 auto;
-       color:white;
-                               
-   }
-  
+.conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-color: #221933;
+}
 
-   h3{
-        margin-top:50px;
-        color:white;
-   }
- 
+.contato {
+  box-shadow: 14px 14px 0px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  background-color: #5e458c;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  color: white;
+}
+
+h3 {
+  margin-top: 50px;
+  color: white;
+}
+
