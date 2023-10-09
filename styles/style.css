@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: rgb(35, 35, 35);
+    background-color: #221933;
 }
 
 
@@ -17,20 +17,20 @@ body{
 }*/
 
 span{
-    color: #FF4020;
+    color: yellow;
 }
 
 a:visited{
-    color:#FF4020!important;
+    color:yellow!important;
 }
 
 a:link{
-    color: #FF4020;
+    color: yellow;
 }
 
 
 nav a:hover{
-    color: #FF4020!important;
+    color: yellow!important;
 }
 
 .navbar-brand img{
@@ -71,7 +71,7 @@ i{
     color: black;
     pointer-events: none;
     transform: 0.5s;
-    color: #FF4020;
+    color: black;
 }
 
 .input-text i{
@@ -86,7 +86,7 @@ i{
 
 .input-text input:valid ~ .spanMail, 
 .input-text input:focus ~ .spanMail{
-    color: #FF4020;
+    color: black;
     font-size: 0.8em;
     transform: translateY(-50%);
     right: 61.5%;
@@ -94,7 +94,7 @@ i{
 
 .input-text input:valid ~ .spanPass, 
 .input-text input:focus ~ .spanPass{
-    color: #FF4020;
+    color: black;
     font-size: 0.8em;
     transform: translateY(-50%);
     right: 60.5%;
@@ -109,7 +109,7 @@ i{
 }
 
 h1{
-    color: #FF4020;
+    color: yellow;
     text-align: center;
     font-family: 'Summer';
 }
@@ -119,9 +119,10 @@ h1{
 }
 
 .login{
+    border: 0.1px solid black;
     border-radius: 10px;
     padding-top: 20px;
     width: 40%;
-    border: solid white 1px;
+    box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
 }
 
