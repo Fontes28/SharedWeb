@@ -37,3 +37,7 @@ h3 {
   margin-top: 50px;
   color: white;
 }
+.alinharVerticalmente{
+display: flex;
+align-items: center;
+}

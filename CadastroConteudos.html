@@ -18,8 +18,35 @@
 
 <body class="allign-items-center">
 
-  <div class="container">
-    <form>
+  <!--Começo NavBar-->
+  <nav class="navbar navbar-expand-lg border-bottom border-body fundoNavContato bg-body-tertiary">
+    <div class="container-fluid">
+
+      <div class="container">
+        <a class="navbar-brand" href="Index.html">
+          <img src="images/semFundo.png" alt="Bootstrap" width="100" height="80">
+        </a>
+      </div>
+                     
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Index.html" ><span >Home</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Configuracoes.html">Configurações</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> 
+  <!--Fim nav bar-->
+  <div class="container mb-5">
+    <form class="box mt-5">
       <div class="row allign-items-center">
         <div class="col-4">
           <div class="mb-3 align-left">
@@ -28,7 +55,7 @@
         </div>
         <div class="col-8 allign-items-center">
           <div class="ml-3 form-text">
-            <label class="form-label allign-middle">Titulo</label>
+            <label class="form-label allign-middle " for="tituloInput">Titulo</label>
             <input type="text" class="form-control" name="titulo" id="tituloInput">
             <label class="form-label">Tema</label>
             <input class="form-control" type="text" name="tema" id="temaInput">

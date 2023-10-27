@@ -6,4 +6,16 @@
     justify-content: center;
 }
 body{
+    background-image: url(../images/fundoConfig.png);
+    background-size: 100%;
 }
+.box {
+    background-color: #705ad1;
+    border-radius: 10px;
+    padding-top: 20px;
+    box-shadow: 10px 8px 0px 0px rgba(3, 30, 138, 0.75);
+    width: 90%;
+    
+    display: block;
+    margin: 0 auto;
+  }
