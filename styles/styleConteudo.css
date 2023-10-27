@@ -15,7 +15,17 @@ body{
     padding-top: 20px;
     box-shadow: 10px 8px 0px 0px rgba(3, 30, 138, 0.75);
     width: 90%;
-    
+    margin-left: 10px;
     display: block;
     margin: 0 auto;
   }
+  label{
+    color: white;
+    font-weight: 550;
+}
+i{
+    color: white;
+}
+h3{
+    color: white;
+}
