@@ -1,4 +1,38 @@
 body{
-    color: white;
+    background-image: url(fundoConfig.png);
+    height: 100vh;
+}
+#box{
+        box-shadow: 14px 14px 0px 0px rgba(0, 0, 0, 0.75);
+        border-radius: 5px;
+        background-color: #5e458c;
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        color: white;
+
+}
+
+#imgPerfil{
+    clip-path: circle();
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    width: 250px;
+    height: 250px;
+}
+
+#checkbox{
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-right: 85%;
+    text-align: center;
+}
+
+button{
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 10%;
     background-color: black;
 }

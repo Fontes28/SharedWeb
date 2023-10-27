@@ -1,0 +1,11 @@
+.box{
+    background-color: #9FD7F9;
+    border-radius: 10px;
+    padding-top: 20px;
+    width: 90vh;
+    height: 90vh;
+    box-shadow: 10px 8px 0px 0px rgba(19, 30, 73, 0.75);
+}
+.conteudo{
+    max-height: 20vh;
+}

@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: #221933;
+    background-color: #CFEBED;
 }
 
 
@@ -109,7 +109,7 @@ i{
 }
 
 h1{
-    color: yellow;
+    color: #193073;
     text-align: center;
     font-family: 'Summer';
 }
@@ -119,10 +119,12 @@ h1{
 }
 
 .login{
-    border: 0.1px solid black;
+    background-color: #9FD7F9;
     border-radius: 10px;
     padding-top: 20px;
     width: 40%;
-    box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 8px 0px 0px rgba(19, 30, 73, 0.75);
 }
+
+
 
