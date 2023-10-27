@@ -8,8 +8,9 @@
 }
 
 body{
-    background-color: #CFEBED;
-}
+    background-image: url(../images/fundoConfig.png);
+    background-size: 100%;
+    }
 
 
 /*nav{
@@ -89,7 +90,7 @@ i{
     color: black;
     font-size: 0.8em;
     transform: translateY(-50%);
-    right: 61.5%;
+    right: 60%;
 }
 
 .input-text input:valid ~ .spanPass, 
@@ -115,15 +116,19 @@ h1{
 }
 
 .main{
-    margin-top: 5%;
+    margin-top: 20vh;
 }
 
 .login{
-    background-color: #9FD7F9;
+    background-color: #705ad1;
     border-radius: 10px;
     padding-top: 20px;
-    width: 40%;
-    box-shadow: 10px 8px 0px 0px rgba(19, 30, 73, 0.75);
+    width: 50%;
+    
+    box-shadow: 10px 8px 0px 0px rgba(3, 30, 138, 0.75);
+}
+.txtSenha{
+    color: red;
 }
 
 

@@ -21,34 +21,18 @@
   integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
   </script>
 
-    <nav class="navbar navbar-expand-lg border-body" data-bs-theme="dark" style="background-color: rgb(19, 30, 73,0.8);">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="Index.html"><img src="images/logoSharEd_.png" alt="Logo shared"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="Contato.html">Contatos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="CadastroConteudos.html">Cadastro de Conteudos</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!--Fim da nav-->
+    
 
     
     <div class="container main">
+      
+      
       <div class="row">
           <div class="col-md-6 col-sm-12">
             <img src="images/logoShared_.png" class="img-thumbnail foto" alt="Logo SharEd">
           </div>
 
-          <div class="col-md-6 col-sm-12 login">
+          <div class="col-md-6 col-sm-12 login row-cols-sm-auto">
             <h1>Login</h1>
             <form action="" class="needs-validation" novalidate>
               <label for="exampleFormControlInput1" class="form-label">Email</label>
@@ -70,6 +54,19 @@
                   Campo obrigatório!
                 </div>
               </div>
+              
+                <div class="col-12 mb-3">
+                    <button type="submit" value="Enviar" class="btn btn-danger" >
+                    <i class="bi bi-send"></i> Enviar
+                      </button>
+                    <button type="reset" value="Limpar" class="btn btn-danger btn-secondary" data-bs-container="body" data-toggle="popover" data-bs-placement="bottom" data-toggle="popover"   data-bs-content="Campos apagados">
+                        <i class="bi bi-x-circle"></i> Limpar
+                    </button>
+                    <p class="txtSenha">
+                      <a href="EsqueceuSenha.html"></a>
+                    </p>
+                </div>
+            </div>   
             </form>
           </div>
       </div>

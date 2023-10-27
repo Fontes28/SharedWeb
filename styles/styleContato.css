@@ -19,21 +19,21 @@ a {
   align-items: center;
 }
 body {
-  background-color: #221933;
+  background-image: url(../images/fundoConfig.png);
+  background-size: 100%;
 }
 
 .contato {
-  box-shadow: 14px 14px 0px 0px rgba(0, 0, 0, 0.75);
-  border-radius: 5px;
-  background-color: #5e458c;
+  background-color: #705ad1;
+  border-radius: 10px;
+  padding-top: 20px;
+  box-shadow: 10px 8px 0px 0px rgba(3, 30, 138, 0.75);
   width: 80%;
   display: block;
   margin: 0 auto;
-  color: white;
 }
 
 h3 {
   margin-top: 50px;
   color: white;
 }
-
