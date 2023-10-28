@@ -29,3 +29,17 @@ i{
 h3{
     color: white;
 }
+.fundoNavContato {
+    background-color: #5e458c !important;
+  }
+  nav #fundo {
+    height: 100vh;
+  }
+  
+  a:link {
+      color: #ffffff;
+    }
+    
+    a {
+      color: white !important;
+    }

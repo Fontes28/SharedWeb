@@ -62,12 +62,18 @@
       </div>
     </nav>
     <!--Fim nav bar-->
-    <div class="container mb-5 ">
-      <h3 class="mt-3 mb-4">Cadastrar Conteúdo <i class="bi bi-cloud-arrow-up-fill"></i></h3>
+    <div class="container mb-5">
+      <h3 class="mt-3 mb-4">
+        Cadastrar Conteúdo <i class="bi bi-cloud-arrow-up-fill"></i>
+      </h3>
       <form class="box mt-5">
-        <div class="row allign-items-center">
-          <div class="col-4">
+        <div class="row allign-items-center mb-5">
+          <div class="col-1"></div>
+          <div class="col-3">
             <div class="mb-3 align-left">
+              <label class="form-label allign-middle" for="conteudoInput"
+                >Conteúdo</label
+              >
               <input
                 type="file"
                 class="form-control"
@@ -76,7 +82,7 @@
               />
             </div>
           </div>
-          <div class="col-8 allign-items-center">
+          <div class="col-7 allign-items-center">
             <div class="ml-3 form-text">
               <label class="form-label allign-middle" for="tituloInput"
                 >Titulo</label
@@ -87,7 +93,7 @@
                 name="titulo"
                 id="tituloInput"
               />
-              <label class="form-label">Tema</label>
+              <label class="form-label" for="temaInput">Tema</label>
               <input
                 class="form-control"
                 type="text"
@@ -95,7 +101,7 @@
                 id="temaInput"
               />
               <div class="mb-3">
-                <label for="" class="form-label">Matéria</label>
+                <label for="tipoMateriaInput" class="form-label">Matéria</label>
                 <select
                   class="form-select form-select-lg"
                   name="tipoMateria"
@@ -105,7 +111,7 @@
                   <option>Técnico</option>
                   <option>Ensino Médio</option>
                 </select>
-                <label for="" class="form-label">Matéria</label>
+                <label for="materiaInput" class="form-label">Matéria</label>
                 <select
                   class="form-select form-select-lg"
                   name="materia"
@@ -117,7 +123,7 @@
                 </select>
               </div>
               <div class="mt-3">
-                <label for="" class="form-label">Descrição</label>
+                <label for="descricaoInput" class="form-label">Descrição</label>
                 <textarea
                   class="form-control"
                   name="descricao"
@@ -142,6 +148,7 @@
               <i class="bi bi-x-circle"></i> Limpar
             </button>
           </div>
+          <div class="col-1"></div>
         </div>
       </form>
     </div>
