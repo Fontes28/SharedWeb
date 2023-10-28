@@ -3,31 +3,59 @@
   src: url(../fonts/Simple\ Summer.otf) format("opentype");
 }
 @media (min-width: 320px) {
-    .login{
-        margin-left: 25%;
-        margin-bottom: 10%;
-       }
-}
-@media (min-width: 481px) {
-   .login{
+  .login {
     margin-left: 25%;
     margin-bottom: 10%;
-   }
+    width: 90%;
+  }
 }
+
+@media (min-width: 481px) {
+  .login {
+    margin-left: 25%;
+    margin-bottom: 10%;
+    width: 90%;
+  }
+}
+
 @media (min-width: 641px) {
-    .login{
-        margin-left: 25%;
-        margin-bottom: 0;
-       }
+    img{
+        visibility: hidden;
+    }
+    .login {
+    margin-left: 25%;
+    margin-bottom: 50%;
+    width: 90%;
+  }
 }
+
 @media (min-width: 961px) {
-  
+    img{
+        visibility: visible;
+    }
+  .login {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
 }
 @media (min-width: 1025px) {
+    img{
+        visibility: visible;
+    }
+  .login {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
 }
 @media (min-width: 1281px) {
-  
-}
+    img{
+        visibility: visible;
+    }
+  .login {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+}*/
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -35,6 +63,7 @@
 body {
   background-image: url(../images/fundoConfig.png);
   background-size: 100%;
+  
 }
 
 /*nav{
