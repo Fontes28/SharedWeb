@@ -1,135 +1,153 @@
 @font-face {
-    font-family: 'Summer';
-    src: url(../fonts/Simple\ Summer.otf) format('opentype');
+  font-family: "Summer";
+  src: url(../fonts/Simple\ Summer.otf) format("opentype");
+}
+@media (min-width: 320px) {
+    .login{
+        margin-left: 25%;
+        margin-bottom: 10%;
+       }
+}
+@media (min-width: 481px) {
+   .login{
+    margin-left: 25%;
+    margin-bottom: 10%;
+   }
+}
+@media (min-width: 641px) {
+    .login{
+        margin-left: 25%;
+        margin-bottom: 0;
+       }
+}
+@media (min-width: 961px) {
+  
+}
+@media (min-width: 1025px) {
+}
+@media (min-width: 1281px) {
+  
+}
+* {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-*{
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  background-image: url(../images/fundoConfig.png);
+  background-size: 100%;
 }
-
-body{
-    background-image: url(../images/fundoConfig.png);
-    background-size: 100%;
-    }
-
 
 /*nav{
     
 }*/
 
-span{
-    color: yellow;
+span {
+  color: yellow;
 }
 
-a:visited{
-    color:yellow!important;
+a:visited {
+  color: yellow !important;
 }
 
-a:link{
-    color: yellow;
+a:link {
+  color: yellow;
 }
 
-
-nav a:hover{
-    color: yellow!important;
+nav a:hover {
+  color: yellow !important;
 }
 
-.navbar-brand img{
-    width: 120px;
+.navbar-brand img {
+  width: 120px;
 }
 
-.navbar-collapse{
-    margin-left: 82%;
+.navbar-collapse {
+  margin-left: 82%;
 }
 
-.img-thumbnail{
-    background-color: transparent;
-    border: none;
+.img-thumbnail {
+  background-color: transparent;
+  border: none;
 }
 
-
-label{
-    color: black;
-    font-weight: 550;
+label {
+  color: black;
+  font-weight: 550;
 }
 
-i{
-    color: black;
+i {
+  color: black;
 }
 
-.input-text{
-    position: relative;
+.input-text {
+  position: relative;
 }
 
-.input-text input{
-    position: relative;
-    font-size: 0.8em;
+.input-text input {
+  position: relative;
+  font-size: 0.8em;
 }
 
-.input-text span{
-    position: absolute;
-    top: 25%;
-    color: black;
-    pointer-events: none;
-    transform: 0.5s;
-    color: black;
+.input-text span {
+  position: absolute;
+  top: 25%;
+  color: black;
+  pointer-events: none;
+  transform: 0.5s;
+  color: black;
 }
 
-.input-text i{
-    position: absolute;
-    top: 25%;
-    right: 4%;
+.input-text i {
+  position: absolute;
+  top: 25%;
+  right: 4%;
 }
 
-.form-control{
-    padding-top: 3%;
+.form-control {
+  padding-top: 3%;
 }
 
-.input-text input:valid ~ .spanMail, 
-.input-text input:focus ~ .spanMail{
-    color: black;
-    font-size: 0.8em;
-    transform: translateY(-50%);
-    right: 60%;
+.input-text input:valid ~ .spanMail,
+.input-text input:focus ~ .spanMail {
+  color: black;
+  font-size: 0.8em;
+  transform: translateY(-50%);
+  right: 60%;
 }
 
-.input-text input:valid ~ .spanPass, 
-.input-text input:focus ~ .spanPass{
-    color: black;
-    font-size: 0.8em;
-    transform: translateY(-50%);
-    right: 60.5%;
+.input-text input:valid ~ .spanPass,
+.input-text input:focus ~ .spanPass {
+  color: black;
+  font-size: 0.8em;
+  transform: translateY(-50%);
+  right: 60.5%;
 }
 
-.spanPass{
-    right: 66.3%;
+.spanPass {
+  right: 66.3%;
 }
 
-.spanMail{
-    right: 67.3%;
+.spanMail {
+  right: 67.3%;
 }
 
-h1{
-    color: #193073;
-    text-align: center;
-    font-family: 'Summer';
+h1 {
+  color: #193073;
+  text-align: center;
+  font-family: "Summer";
 }
 
-.main{
-    margin-top: 20vh;
+.main {
+  margin-top: 20vh;
 }
 
-.login{
-    background-color: #705ad1;
-    border-radius: 10px;
-    padding-top: 20px;
-    width: 50%;
-    
-    box-shadow: 10px 8px 0px 0px rgba(3, 30, 138, 0.75);
+.login {
+  background-color: #705ad1;
+  border-radius: 10px;
+  padding-top: 20px;
+  width: 50%;
+  box-shadow: 10px 8px 0px 0px rgba(3, 30, 138, 0.75);
 }
-.txtSenha{
-    color: red;
+.txtSenha {
+  color: red;
 }
-
-
-
