@@ -19,9 +19,12 @@ color: white !important;
 }
 
 .conteudo {
-display: flex;
-justify-content: center;
-align-items: center;
+text-align: center;
+}
+
+img{
+    margin-right: 2%;
+    padding-bottom: 5%;
 }
 
 .config {
@@ -36,10 +39,19 @@ margin-bottom: 3%;
 }
 
 h3 {
-    margin-top: 50px;
-    color: white;
-  }
-  .alinharVerticalmente{
-  display: flex;
-  align-items: center;
-  }
+margin-top: 50px;
+color: white;
+}
+.alinharVerticalmente{
+display: flex;
+align-items: center;
+}
+
+.filtroleft{
+margin-left: 2%;
+margin-bottom: 5%;
+}
+
+.filtroright{
+margin-right: 2%;   
+}
