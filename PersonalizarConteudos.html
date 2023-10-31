@@ -14,9 +14,9 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
     />
-    <link rel="stylesheet" href="styles/styleConteudo.css" />
+    <link rel="stylesheet" href="styles/stylePersonalizar.css" />
 
-    <title>Publicar Conteúdo</title>
+    <title>Personalização de Feed</title>
   </head>
 
   <body class="allign-items-center">
@@ -62,7 +62,92 @@
       </div>
     </nav>
     <!--Fim nav bar-->
-    
+
+    <div class="container config mt-3">
+      <div class="row">
+        <div class="col-4">
+          <img src="https://dummyimage.com/250x250/000/fff" alt="" />
+        </div>
+
+        <div class="col-3">
+          <h4>
+            <div class="form-check form-switch SwitchButton">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                role="switch"
+                id="flexSwitchCheckDefault"
+              />
+              <label class="form-check-label" for="flexSwitchCheckDefault"
+                >Ensino Médio</label
+              >
+            </div>
+
+            <div class="form-check form-switch SwitchButton2">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                role="switch"
+                id="flexSwitchCheckDefault2"
+              />
+              <label class="form-check-label" for="flexSwitchCheckDefault2"
+                >Ensino Técnico</label
+              >
+            </div>
+          </h4>
+        </div>
+        <div class="col-5">
+          <label for="tipoMateriaInput" class="form-label">Matéria</label>
+          <select
+            class="form-select form-select-lg margem"
+            name="tipoMateria"
+            id="tipoMateriaInput"
+            required
+          >
+            <option selected>Escolha uma das opções abaixo</option>
+            <option>Técnico</option>
+            <option>Ensino Médio</option>
+          </select>
+
+          <h4>
+            <div class="form-check form-switch SwitchButton">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                role="switch"
+                id="flexSwitchCheckDefault"
+              />
+              <label class="form-check-label" for="flexSwitchCheckDefault"
+                >Materia 1</label
+              >
+            </div>
+            <div class="form-check form-switch SwitchButton">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                role="switch"
+                id="flexSwitchCheckDefault"
+              />
+              <label class="form-check-label" for="flexSwitchCheckDefault"
+                >Materia 2</label
+              >
+            </div>
+            <div class="form-check form-switch SwitchButton">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                role="switch"
+                id="flexSwitchCheckDefault"
+              />
+              <label class="form-check-label" for="flexSwitchCheckDefault"
+                >Materia 3</label
+              >
+            </div>
+          </h4>
+        </div>
+        <button class="button mt-4">Salvar Preferências</button>
+      </div>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
