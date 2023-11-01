@@ -48,18 +48,16 @@
     
     <div class="container my-5">
         <h3 class="mt-3 mb-4">Atribuir Pontuação</h3>
-
-        <form class="g-3 needs-validation contato p-3" novalidate>
+    
+        <form class="needs-validation" novalidate>
             <div class="row">
-                <div class="col-12">
+                <div class="col-md-6">
                     <div class="mb-3">
                         <label for="disciplinaInput" class="form-label">Disciplina:</label>
                         <input type="text" class="form-control" name="disciplina" id="disciplinaInput" required>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
+                <div class="col-md-6">
                     <div class="mb-3">
                         <label for="turmaInput" class="form-label">Turma:</label>
                         <input type="text" class="form-control" name="turma" id="turmaInput" required>
@@ -67,39 +65,30 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12">
+                <div class="col-md-6">
                     <div class="mb-3">
                         <label for="atividadeInput" class="form-label">Atividade Extracurricular:</label>
                         <input type="text" class="form-control" name="atividade" id="atividadeInput" required>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
+                <div class="col-md-6">
                     <div class="mb-3">
-                        <label for="pontuacaoInput" class="form-label"> Pontuação:</label>
+                        <label for="pontuacaoInput" class="form-label">Pontuação:</label>
                         <input type="text" class="form-control" name="pontuacao" id="pontuacaoInput" required>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="mb-3">
-                        <label for="descricaoInput" class="form-label">Descrição Adicional:</label>
-                        <textarea class="form-control" name="descricao" id="descricaoInput" rows="4" required></textarea>
-                    </div>
-                </div>
+            <div class="mb-3">
+                <label for="descricaoInput" class="form-label">Descrição Adicional:</label>
+                <textarea class="form-control" name="descricao" id="descricaoInput" rows="4" required></textarea>
             </div>
-            <div class="row">
-                <div class="col-12 mb-3">
-                    <button type="submit" value="Atribuir" class="btn btn-danger">
-                        <i class="bi bi-send"></i> Atribuir Pontuação 
-                    </button>
-                    <button type="reset" value="Limpar" class="btn btn-danger btn-secondary" data-bs-container="body" data-toggle="popover" 
-                    data-bs-placement="bottom" data-bs-content="Campos apagados">
+            <div class="mb-3">
+                <button type="submit" value="Atribuir" class="btn btn-danger">
+                    <i class="bi bi-send"></i> Atribuir Pontuação
+                </button>
+                <button type="reset" value="Limpar" class="btn btn-secondary" data-bs-container="body" data-toggle="popover" data-bs-placement="bottom" data-bs-content="Campos apagados">
                     <i class="bi bi-x-circle"></i> Limpar
-                    </button>
-                </div>
+                </button>
             </div>
         </form>
     </div>
