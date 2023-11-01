@@ -3,6 +3,38 @@ body{
   background-image: url(../images/fundoConfig.png);
   background-size: 100%;
   }
+  @media (min-width: 320px) and (max-width: 1025px){
+    
+    .row{
+      display: flex;
+      flex-direction: column;
+    }
+    .col-5{
+      width: 90%;
+      margin: 0 auto;
+    }
+    
+  }
+  
+  @media (min-width: 481px) {
+    
+    
+  }
+  
+  @media (min-width: 641px) {
+      
+  }
+  
+  @media (min-width: 961px) {
+      
+  }
+  @media (min-width: 1025px) {
+      
+    
+  }
+  @media (min-width: 1281px) {
+      
+  }
 
 .fundoNavContato {
 background-color: #5e458c !important;
