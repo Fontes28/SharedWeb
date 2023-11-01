@@ -51,16 +51,22 @@
       <!--Fim nav bar-->
 
        <!--Inicio do conteudo-->
-       <div class="conteudo">
-        <img src="https://dummyimage.com/pop">
-      </div>
        <!--Fim do Conteudo-->
        
-      <!--Conteudo Visualização Conteudo-->
-       <div class="config">
-        <form class="g-3 needs-validation contato p-3" novalidate>
-
-           <div class="row">
+       <div class="content-container">
+        <div class="image-container">
+            <img src="https://dummyimage.com/pop" alt="Image">
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-12">
+              <div class="mb-3">
+                  <label for="comentarioInput" class="form-label"><i class="bi bi-person-circle"></i></label>
+                  <textarea class="form-control" name="comentario" id="comentarioInput" rows="4" required></textarea>
+              </div>
+          </div>
+      </div>
+      <div class="row">
         <div class="col-12">
             <div class="mb-3">
                 <label for="comentarioInput" class="form-label"><i class="bi bi-person-circle"></i></label>
@@ -68,18 +74,15 @@
             </div>
         </div>
     </div>
-        <div class="row">
-        <div class="col-12 mb-3">
-            <button type="submit" value="Enviar" class="btn btn-danger">
-                <i class="bi bi-send"></i> Enviar 
-            </button>
-        </div>
+    <!-- Button Container -->
+    <div class="row">
+      <div class="col-12 mb-3">
+          <button type="submit" value="Comentar" class="btn btn-danger">
+              <i class="bi bi-send"></i> Comentar 
+          </button>
     </div>
+    <!-- Your existing scripts -->
 
-       </form>
-
-    </div>
-    <!--Fim Config-->
     <script type="text/javascript">
         (() => {
             "use strict";
@@ -104,5 +107,33 @@
                 });
                 })();
                 </script>
+
+<style>
+  /* Add this CSS to your existing styles */
+  .content-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  .image-container {
+      text-align: center;
+  }
+
+  .comment-container {
+      display: flex;
+      align-items: center;
+  }
+
+  .comment-container .form-label {
+      margin-right: 10px; /* Space between the icon and the comment box */
+  }
+
+  .button-container {
+      text-align: center;
+  }
+</style>
+</style>
     
     <script>
