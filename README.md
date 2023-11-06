@@ -28,7 +28,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 <table>
   <tr>
     <td align="center">
-      <a href="#">
+      <a href="https://github.com/ArthurYashima">
         <img src="japa.png" width="100px;" alt="Foto do Arthur"/><br>
         <sub>
           <b>Arthur Yashima</b>
@@ -36,7 +36,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       </a>
     </td>
     <td align="center">
-      <a href="#">
+      <a href="https://github.com/Fontes28">
         <img src="davi.png" width="100px;" alt="Foto do Davi"/><br>
         <sub>
           <b>Davi Fontes</b>
@@ -44,7 +44,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       </a>
     </td>
     <td align="center">
-      <a href="#">
+      <a href="https://github.com/iarafid">
         <img src="iara.png" width="100px;" alt="Foto da Iara"/><br>
         <sub>
           <b>Iara Fidelis</b>
@@ -52,7 +52,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       </a>
     </td>
     <td align="center">
-      <a href="#">
+      <a href="https://github.com/marip864">
         <img src="mari.png" width="100px;" alt="Foto da Mariana"/><br>
         <sub>
           <b>Mariana Melo</b>
