@@ -16,6 +16,8 @@ Design Telas Mobile - https://www.figma.com/file/4VjHq1sDCanisldlYI8dMv?type=whi
 <br>
 Design Telas Desktop - https://www.figma.com/file/4bSH5tzxDUT5M3dLKx28ar?type=whiteboard
 
+### Documento de Requisitos
+https://docs.google.com/document/d/1PbRX1Do0xMgR70bHJJTutpuQT01sy3wtpHV7KfltrpI/edit?usp=sharing
 
 
 
