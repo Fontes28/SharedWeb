@@ -1,0 +1,98 @@
+body {
+    background-color: white;
+    background-size: 100%;
+  }
+  
+  .fundoNavContato {
+    background-color: #5e458c !important;
+  }
+  nav #fundo {
+    height: 100vh;
+  }
+  
+  a:link {
+    color: #ffffff;
+  }
+  
+  a {
+    color: white !important;
+  }
+  
+  .conteudo {
+    text-align: center;
+  }
+  
+  img {
+    margin-right: 2%;
+  }
+
+  .img-nav {
+    margin-right: 0;
+    padding-bottom: 0;
+  }
+
+  .imgPerfil{
+    clip-path: circle();
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+
+  .imgConteudo{
+    margin-bottom: 5%;
+  }
+
+  .titulo {
+    background-color: #5e458c;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    text-align: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .config {
+    background-color: #705ad1;
+    border-radius: 10px;
+    padding-top: 20px;
+    box-shadow: 10px 8px 0px 0px rgba(3, 30, 138, 0.75);
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3%;
+  }
+  
+  h3 {
+    margin-top: 50px;
+    color: white;
+  }
+  .alinharVerticalmente {
+    display: flex;
+    align-items: center;
+  }
+  
+  .usuario{
+    float: right;
+    padding-right: 50%;
+    padding-top: 5%;
+  }
+  
+
+  .button {
+    transition-duration: 0.4s;
+    background-color: white;
+    color: red;
+    border: 2px solid red; 
+    border-radius: 10px;
+    margin-bottom: 2%;
+  }
+  
+  .button:hover {
+    background-color: red;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.5), 0 17px 50px 0 rgba(0,0,0,0.5);
+  }
