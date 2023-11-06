@@ -1,4 +1,4 @@
-# Nome do projeto
+# Shar.Ed
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
@@ -29,25 +29,33 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="japa.png" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <img src="japa.png" width="100px;" alt="Foto do Arthur"/><br>
         <sub>
-          <b>Iuri Silva</b>
+          <b>Arthur Yashima</b>
         </sub>
       </a>
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://s2.glbimg.com/FUcw2usZfSTL6yCCGj3L3v3SpJ8=/smart/e.glbimg.com/og/ed/f/original/2019/04/25/zuckerberg_podcast.jpg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
+        <img src="davi.png" width="100px;" alt="Foto do Davi"/><br>
         <sub>
-          <b>Mark Zuckerberg</b>
+          <b>Davi Fontes</b>
         </sub>
       </a>
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <img src="iara.png" width="100px;" alt="Foto da Iara"/><br>
         <sub>
-          <b>Steve Jobs</b>
+          <b>Iara Fidelis</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="mari.png" width="100px;" alt="Foto da Mariana"/><br>
+        <sub>
+          <b>Mariana Melo</b>
         </sub>
       </a>
     </td>
