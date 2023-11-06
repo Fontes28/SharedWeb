@@ -10,11 +10,18 @@
 
 > Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
 
-### Ajustes e melhorias
+### Cronograma
 
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+O projeto ainda está em desenvolvimento e as próximas atualizações estão previstas no cronograma:
 
-- [] Ajuste de Cores
+https://drive.google.com/file/d/1T3WLLKwOeJWPs2r5_MXYwA1WhItMbtyX/view?usp=drive_link
+<br>
+
+### Figma
+Design de Telas Web - https://www.figma.com/file/f7Jyap3L2nx4C8hLFOPy4d?type=whiteboard
+Design Telas Mobile - https://www.figma.com/file/4VjHq1sDCanisldlYI8dMv?type=whiteboard
+Design Telas Desktop - https://www.figma.com/file/4bSH5tzxDUT5M3dLKx28ar?type=whiteboard
+
 
 
 
@@ -59,10 +66,3 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   </tr>
 </table>
 
-## 😄 Seja um dos contribuidores
-
-Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
-
-## 📝 Licença
-
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
