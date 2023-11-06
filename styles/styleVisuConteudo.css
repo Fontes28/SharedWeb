@@ -1,22 +1,15 @@
 body {
-  background-image: url(../images/fundoConfig.png);
+  
   background-size: 100%;
 }
 
 .fundoNavContato {
-  background-color: #5e458c !important;
+  background-color: white!important;
 }
 nav #fundo {
   height: 100vh;
 }
 
-a:link {
-  color: #ffffff;
-}
-
-a {
-  color: white !important;
-}
 
 .conteudo {
   text-align: center;
@@ -31,7 +24,7 @@ img {
   padding-bottom: 0;
 }
 .titulo {
-  background-color: #5e458c;
+  background-color: rgba(3, 30, 138, 0.75);
   border-radius: 10px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -45,7 +38,7 @@ img {
 }
 
 .config {
-  background-color: #705ad1;
+  background-color: rgba(77, 196, 200, 0.9);
   border-radius: 10px;
   padding-top: 20px;
   box-shadow: 10px 8px 0px 0px rgba(3, 30, 138, 0.75);

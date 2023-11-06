@@ -1,141 +1,267 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Link css bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="styles/style.css">
-    <title>Shar.Ed - Bem Vindo!</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Shar.Ed | Home</title>
+
+  <link rel="icon" href="images/Shar.Ed_logo.png" sizes="32x32">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+
+  <!--<link rel="stylesheet" href="style.css">-->
+
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');   
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap'); 
+
+        .menuFonte
+        {
+            font-family: 'Mooli', sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            color: rgb(7, 7, 100);
+        }
+
+        .lema
+        {
+            font-family: 'Mooli', sans-serif;
+            font-size: 30px;
+            font-weight: bold;
+            color: white;
+        }
+
+        body
+        {
+            font-family: 'Mooli', sans-serif;
+            font-size: 18px;
+        }
+
+        .titulo
+        {
+            font-family: 'Bebas Neue', sans-serif;;
+            font-size: 70px;
+            color:white;
+        }
+
+        p
+        {
+            text-align: justify;
+        }
+
+        footer{
+            background-color: rgb(22, 22, 114);
+        }
+
+	</style>
+
 </head>
-
 <body>
-  <!-- Scripts Bootstrap - Não Alterar -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-  integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-  integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-  </script>
 
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
-    
-    <div class="container main">
-      
-      
-      <div class="row">
-          <div class="col-md-6">
-            <img src="images/logoShared_.png" class="img-thumbnail foto" alt="Logo SharEd">
-          </div>
-
-          <div class="col-md-6 col-sm-12 login col-">
-            <h1>Login</h1>
-            <form action="" class="needs-validation" novalidate>
-              <label for="exampleFormControlInput1" class="floating">Email</label>
-              <div class="input-text mb-3">
-                <input type="text" class="form-control" id="exampleFormControlInput1" required>
+    <div class="container-fluid" style="background-color: rgba(77, 196, 200, 0.9);">
+        <nav class="navbar navbar-expand-lg menuFonte">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="images/Shar.Ed_logo.png" height="60px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 
-                <i class="bi bi-envelope"></i>
-                <div class="invalid-feedback">
-                  Campo obrigatório!
-                </div>
-              </div>
+                   <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" style="color: white; font-size: 17px;" href="Login.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Acesso ao Portal
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="CadastroConteudos.html">Cadastro Conteúdo</a></li>
+                            <li><a class="dropdown-item" href="VisuConteudo.html">Ver Conteúdo</a></li>
+                            <li><a class="dropdown-item" href="PersonalizarConteudos.html">Personalizar Conteúdo</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="CadastroExtracurriculares.html">Cadastro Extras</a></li>
+                            <li><a class="dropdown-item" href="Configuracoes.html">Configurações</a></li>
+                        </ul>
+                    </li>
 
-              <label for="inputSenha" class="form-label">Senha</label>
-              <div class="input-text mb-3">
-                <input type="password" class="form-control" id="inputSenha" required>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" style="color: white; font-size: 17px;" href="Login.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Acesso Professores
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="VisuTurma.html">Visualizar Turmas</a></li>
+                            <li><a class="dropdown-item" href="VisualizarComentarios.html">Ver Comentários</a></li>
+                            <li><a class="dropdown-item" href="ValidarConteudos.html">Validar Conteúdos</a></li>
+                            <li><a class="dropdown-item" href="AtribuirPontuacao.html">Atribuir Pontuação</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="PublicarComentarios.html">Publicar Comentários</a></li>
+                            <li><a class="dropdown-item" href="GerarRelatorio.html">Gerar Relatórios</a></li>
+                        </ul>
+                    </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" style="color: white; font-size: 17px;" href="contato.html"> Contato </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page"  style="color: white; font-size: 17px;" href="#"> Redes </a>
+                  </li>
+                  
+                </ul>
+                </div>
+                </div>
+                </div>
+                  <a href="Login.html"><button class="btn btn-warning me-2 menuFonte" type="submit">Login</button></a>
                 
-                <i class="bi bi-lock"></i>
-                <div class="invalid-feedback">
-                  Campo obrigatório!
-                </div>
               </div>
-              
-                <div class="col-12 mb-3">
-                    <button type="submit" value="Enviar" class="btn btn-danger" >
-                    <i class="bi bi-send"></i> Enviar
-                      </button>
-                    <button type="reset" value="Limpar" class="btn btn-danger btn-secondary" data-bs-container="body" data-toggle="popover" data-bs-placement="bottom" data-toggle="popover"   data-bs-content="Campos apagados">
-                        <i class="bi bi-x-circle"></i> Limpar
-                    </button>
-                    <p class="txtSenha">
-                      <a href="EsqueceuSenha.html">Esqueceu a Senha?</a>
-                    </p>
-                </div>
-            </div>   
-            </form>
-          </div>
-      </div>
-
+            </div>
+          </nav>
     </div>
+    <div style="background-color: rgba(77, 196, 200, 0.9); height: 95vh;">
 
+    <div class="container">
 
+        <br><br><br><br><br>
 
-
-    <!--
-    <div class="vertical-center container-fluid">
         <div class="row">
-            <div class="col"></div>
-            <div class="col-4">
-                <img src="images/logoShared_.png" class="img-thumbnail rounded-4" alt="Logo SharEd">
-            </div>
-            <div class="col">
+            <div class="col-md-4 col-sm-12">
+                <p></p>
+                <p class="titulo">SHAR.ED:</p>
+                <br>
 
-            </div>
-            <div class="col-lg-6 col-md-6 row-cols-sm-auto shadow-lg p-3 mb-5 bg-body rounded">
-                <form>
-                    <div class="mb-3 allign-middle">
-                        <label for="InputEmailLogin" class="form-label">Endereço de Email</label>
-                        <input type="email" class="form-control" id="InputEmailLogin" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">Seu Email Não Será Compartilhado</div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="InputPasswordLogin" class="form-label">Senha</label>
-                        <input type="password" class="form-control" id="InputPasswordLogin">
-                    </div>
-                     <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1"></label>
-                </div> 
-                    <div class="d-grid gap-2 col-10 mx-auto">
-                        <button type="submit" class="btn btn-outline-danger">Entrar</button>
-                    </div>
-                    <div class="">
 
-                    </div>
-                </form>
+                <p class="lema">O caminho da educação!</p>
+                <br>                <p>
+                    <a href="#saiba"><button class="btn" style="background-color: #1E9E7A; color: white; font-weight: bold; width: 50%; border-radius: 10px;">Saiba mais</button></a>
+                </p>
+                <br>
             </div>
-            <div class="col">
-
+            <div class="col-md-1"></div>
+            <div class="col-md-7 col-sm-12">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/2.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
             </div>
         </div>
     </div>
-    -->
+    </div>
+
+    <div style="height: 60vh; background-color: rgba(77, 196, 200, 0.5); ">
+
+        <br><br>
+        
+        <div class="container" id="#saiba">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h1 class="lead" style="color:white; font-size: 40px; font-weight: bold;">O Projeto</h1>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12 col-sm-12" style="background-color: rgba(77, 196, 200, 0.7); padding: 20px; border-radius: 20px;">
+                <p style="color:white;">O Projeto “Shar.Ed” será uma plataforma que utilizará os conceitos de Big Data e Blockchain para a descentralização do processo de aprendizagem dos alunos. Por meio dele, os estudantes podem compartilhar seus objetos de estudo (resumos, mapas mentais, textos ou vídeos); visualizar aqueles que foram publicados por outros colegas da mesma instituição, filtrando os conteúdos de acordo com seus interesses; além de poderem validar as suas atividades extracurriculares (olimpíadas científicas, oficinas, jogos escolares, palestras etc.). Ao publicar ou acessar qualquer material na plataforma e ser validado pelos “mineradores” (professores ou monitores da disciplina), o estudante receberá pontos cumulativos que poderão ser utilizados de acordo com os critérios de cada escola.</p>
+            </div>
+        </div>
+    </div>
+
+    </div>
 
 
-    <script type="text/javascript">
-      (() => {
-       'use strict'
-     
-       // Fetch all the forms we want to apply custom Bootstrap validation styles to
-       const forms = document.querySelectorAll('.needs-validation')
-     
-       // Loop over them and prevent submission
-       Array.from(forms).forEach(form => {
-         form.addEventListener('submit', event => {
-           if (!form.checkValidity()) {
-             event.preventDefault()
-             event.stopPropagation()
-           }
-     
-           form.classList.add('was-validated')
-         }, false)
-       })
-     })()
-   </script>
+    <br><br>
+
+    <div style="background-color: white; height: 70vh;">
+
+        <br><br>
+        
+        <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h1 class="lead" id="saiba" style="color: black; font-size: 40px">Equipe</h1>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-md-3 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="japa.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Arthur Yashima</h5>
+                        <p class="card-text" style="font-size: 14px">Designer e Programador Front-End</p>
+                        <a href="#" class="btn" style="background-color:rgba(77, 196, 200, 0.9); color: white;">GitHub</a>
+                    </div>
+                </div>            
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="davi.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Davi Fontes</h5>
+                        <p class="card-text" style="font-size: 14px">Programador Back-End</p>
+                        <a href="https://github.com/Fontes28" target="_blank" class="btn" style="background-color:rgba(77, 196, 200, 0.9); color: white;">GitHub</a>
+                    </div>
+                </div>                     
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="iara.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Iara Fideles</h5>
+                        <p class="card-text" style="font-size: 14px">Programadora Front-End</p>
+                        <a href="https://github.com/iarafid" target="_blank" class="btn" style="background-color:rgba(77, 196, 200, 0.9); color: white;">GitHub</a>
+                    </div>
+                </div>      
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="mari.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mariana Melo</h5>
+                        <p class="card-text" style="font-size: 14px">Gerente e Programadora Back-End</p>
+                        <a href="https://github.com/marip864" target="_blank" class="btn" style="background-color:rgba(77, 196, 200, 0.9); color: white;">GitHub</a>
+                    </div>
+                </div>      
+            </div>
+        </div>
+    </div>
+
+    <br><br><br>
+
+</div>
+
+
+
+
+
+<script type="text/javascript">
+
+</script>
+	
+
+
+
+  <!--fim container cursos-->
+
 </body>
 </html>

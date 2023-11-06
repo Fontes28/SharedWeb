@@ -75,11 +75,13 @@ span {
 }
 
 a:visited {
-  color: yellow !important;
+  color: rgb(77, 196, 200);
+  text-decoration: none;
 }
 
 a:link {
-  color: yellow;
+  color: rgb(77, 196, 200);
+  text-decoration: none;
 }
 
 nav a:hover {
@@ -171,11 +173,10 @@ h1 {
 }
 
 .login {
-  background-color: #705ad1;
+  background-color: white;
   border-radius: 10px;
   padding-top: 20px;
   width: 50%;
-  box-shadow: 10px 8px 0px 0px rgba(3, 30, 138, 0.75);
 }
 .txtSenha {
   color: red;

@@ -1,8 +1,4 @@
 
-body{
-        background-image: url(../images/fundoConfig.png);
-        background-size: 100%;
-        }
 
 .fundoNavContato {
   background-color: #5e458c !important;
@@ -11,13 +7,6 @@ nav #fundo {
   height: 100vh;
 }
 
-a:link {
-    color: #ffffff;
-  }
-  
-  a {
-    color: white !important;
-  }
   
   .conteudo {
     display: flex;
@@ -26,10 +15,10 @@ a:link {
   }
   
   .config {
-    background-color: #705ad1;
+    
     border-radius: 10px;
     padding-top: 20px;
-    box-shadow: 10px 8px 0px 0px rgba(3, 30, 138, 0.75);
+    
     width: 80%;
     display: block;
     margin: 0 auto;
@@ -59,24 +48,6 @@ a:link {
     margin-top: 3%;
     margin-left: 5%;
     padding-bottom: 3%;
-  }
-
-  .button {
-    transition-duration: 0.4s;
-    background-color: white;
-    color: red;
-    border: 2px solid red; 
-    border-radius: 20px;
-    width: 30%;
-    height: 40%;
-    margin-left: 5%;
-    margin-bottom: 3%;
-  }
-  
-  .button:hover {
-    background-color: red;
-    color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.5), 0 17px 50px 0 rgba(0,0,0,0.5);
   }
 
   .dados{ 

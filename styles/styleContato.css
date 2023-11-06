@@ -1,17 +1,29 @@
-.fundoNavContato {
-  background-color: #5e458c !important;
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');   
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap'); 
+
+        .menuFonte
+        {
+            font-family: 'Mooli', sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            color: rgb(7, 7, 100);
+        }
+
+        body
+        {
+            font-family: 'Mooli', sans-serif;
+            font-size: 14px;
+        }
+
 nav #fundo {
   height: 100vh;
 }
 
 a:link {
-  color: #ffffff;
+  color: black;
 }
 
-a {
-  color: white !important;
-}
 
 .conteudo {
   display: flex;
@@ -24,7 +36,7 @@ body {
 }
 
 .contato {
-  background-color: #705ad1;
+  background-color: white;
   border-radius: 10px;
   padding-top: 20px;
   box-shadow: 10px 8px 0px 0px rgba(3, 30, 138, 0.75);
