@@ -15,6 +15,9 @@ espaço físico; possibilitando uma maior autonomia na construção do conhecime
 colocando os professores como mediadores desse processo, atendendo às expectativas e
 necessidades de um futuro profissional do século XXI.
 
+## Desktop para Administração
+https://github.com/marip864/SharEd_ProjetoDesktop.git
+
 ### Cronograma
 
 O projeto ainda está em desenvolvimento e as próximas atualizações estão previstas no cronograma:
