@@ -64,6 +64,22 @@ img {
   margin-left: 5%;
 }
 
+@media (min-width: 320px) and (max-width: 1025px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .col-5 {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+}
+.nav-img{
+    margin-left: 0;
+    border-radius: 0;
+  }
+
 .SwitchButton {
   margin-top: 3%;
   margin-left: 5%;

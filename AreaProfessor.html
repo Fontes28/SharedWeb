@@ -10,7 +10,55 @@
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="styles/styleAreaProfessor.css">
-    <title>Shar.ed</title>
+    <title>Shar.Ed | Área Professor</title>
+
+    <link rel="icon" href="images/Shar.Ed_logo.png" sizes="32x32">
+
+
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');   
+          @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap'); 
+  
+          .menuFonte
+          {
+              font-family: 'Mooli', sans-serif;
+              font-size: 14px;
+              font-weight: bold;
+              color: rgb(7, 7, 100);
+          }
+  
+          .lema
+          {
+              font-family: 'Mooli', sans-serif;
+              font-size: 30px;
+              font-weight: bold;
+              color: white;
+          }
+  
+          body
+          {
+              font-family: 'Mooli', sans-serif;
+              font-size: 18px;
+          }
+  
+          .titulo
+          {
+              font-family: 'Bebas Neue', sans-serif;;
+              font-size: 70px;
+              color:white;
+          }
+  
+          p
+          {
+              text-align: justify;
+          }
+  
+          footer{
+              background-color: rgb(22, 22, 114);
+          }
+  
+    </style>
+  
 </head>
 
 <body>
@@ -25,31 +73,69 @@
 
 
             <!--Começo NavBar-->
-    <nav class="navbar navbar-expand-lg border-bottom border-body fundoNavContato bg-body-tertiary">
-        <div class="container-fluid">
-
-          <div class="container">
-            <a class="navbar-brand" href="Index.html">
-              <img class="img-nav" src="images/semFundo.png" alt="Bootstrap" width="100" height="80">
-            </a>
+            <div class="container-fluid">
+              <nav class="navbar navbar-expand-lg menuFonte">
+                  <div class="container">
+                    <a class="navbar-brand" href="index.html"><img src="images/Shar.Ed_logo.png" height="60px"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <div class="container-fluid">
+                      <div class="row">
+                          <div class="col-md-6"></div>
+                          <div class="col-md-6">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      
+                         <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" style="font-size: 17px;" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Acesso ao Portal
+                              </a>
+                              <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="CadastroConteudos.html">Cadastro Conteúdo</a></li>
+                                  <li><a class="dropdown-item" href="VisuConteudo.html">Ver Conteúdo</a></li>
+                                  <li><a class="dropdown-item" href="PersonalizarConteudos.html">Personalizar Conteúdo</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="CadastroExtracurriculares.html">Cadastro Extras</a></li>
+                                  <li><a class="dropdown-item" href="Configuracoes.html">Configurações</a></li>
+                                  <li><a class="dropdown-item" href="AreaUsuario.html">Área do Usuário</a></li>
+                              </ul>
+                          </li>
+      
+                          <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" style="font-size: 17px;" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Acesso Professores
+                              </a>
+                              <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="VisuTurma.html">Visualizar Turmas</a></li>
+                                  <li><a class="dropdown-item" href="VisualizarComentarios.html">Ver Comentários</a></li>
+                                  <li><a class="dropdown-item" href="ValidarConteudos.html">Validar Conteúdos</a></li>
+                                  <li><a class="dropdown-item" href="AtribuirPontuacao.html">Atribuir Pontuação</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="PublicarComentarios.html">Publicar Comentários</a></li>
+                                  <li><a class="dropdown-item" href="GerarRelatorio.html">Gerar Relatórios</a></li>
+                                  <li><a class="dropdown-item" href="AreaProfessor.html">Área do Professor</a></li>
+                              </ul>
+                          </li>
+                        
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" style="font-size: 17px;" href="contato.html"> Contato </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page"  style="font-size: 17px;" href="#"> Redes </a>
+                        </li>
+                        
+                      </ul>
+                      </div>
+                      </div>
+                      </div>
+                        <a href="Login.html"><button class="btn btn-warning me-2 menuFonte" type="submit">Login</button></a>
+                      
+                    </div>
+                  </div>
+                  
+                </nav>
           </div>
-                         
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="Index.html" ><span >Home</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Configuracoes.html">Configurações</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav> 
       <!--Fim nav bar-->
 
       
