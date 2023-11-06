@@ -17,6 +17,7 @@ necessidades de um futuro profissional do século XXI.
 
 ## Desktop para Administração
 https://github.com/marip864/SharEd_ProjetoDesktop.git
+<hr>
 
 ### Cronograma
 
