@@ -24,58 +24,127 @@
   integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
   </script>
 
-    
+<style type="text/css">
+  @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');   
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxanium:wght@700&display=swap'); 
+
+  .menuFonte {
+      font-family: "Open Sans";
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 155.99%;
+      letter-spacing: -0.72px;
+  }
+
+  .lema {
+            font-family: "Open Sans";
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 155.99%;
+            letter-spacing: -1.2px;
+            background: var(--Color-Style-Padrao-BG-Horizontal, linear-gradient(91deg, #00908C 1.1%, #130090 129.87%));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        body {
+            font-family: 'Mooli', sans-serif;
+            font-size: 18px;
+        }
+
+        .rodapeFonte {
+            color: var(--Color-Style-Primary-primary-600, #0C024D);
+            font-family: "Open Sans";
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 155.99%;
+            letter-spacing: -0.72px;
+        }
+
+        .titulo {
+            font-family: Oxanium;
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 105.182%;
+            letter-spacing: -3.6px;
+            color: #000;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        rodapé {
+            background-color: rgb(255, 255, 255);
+            padding-top: 50px;
+            padding-bottom: 20px; /* Correção no nome da propriedade */
+        }
+
+        .align-center {
+            align-items: center;
+        }
+
+        .d-flex {
+            display: flex;
+        }
+        .justify-content-center {
+            justify-content: center;
+        }
+        .align-items-center {
+            align-items: center;
+        }
+        
+
+    </style>
 
     
-    <div class="container main">
-      
-      
-      <div class="row">
-          <div class="col-md-6">
-            <img src="images/logoShared_.png" class="img-thumbnail foto" alt="Logo SharEd">
-          </div>
 
-          <div class="col-md-6 col-sm-12 login">
-            <h1>Login</h1>
-            <form action="" class="needs-validation" novalidate>
-              <label for="exampleFormControlInput1" class="floating">Email</label>
-              <div class="input-text mb-3">
-                <input type="text" class="form-control" id="exampleFormControlInput1" required>
-                
-                <i class="bi bi-envelope"></i>
-                <div class="invalid-feedback">
-                  Campo obrigatório!
-                </div>
-              </div>
-
-              <label for="inputSenha" class="form-label">Senha</label>
-              <div class="input-text mb-3">
-                <input type="password" class="form-control" id="inputSenha" required>
-                
-                <i class="bi bi-lock"></i>
-                <div class="invalid-feedback">
-                  Campo obrigatório!
-                </div>
-              </div>
-              
-                <div class="col-12 mb-3">
-                    <a href="VisuTurma.html"><button value="Enviar" class="btn" style="background-color: rgb(77, 196, 200); color: white;">
-                    <i class="bi bi-send" style="color:white"></i> Enviar
-                      </button></a>
-                    <button type="reset" value="Limpar" class="btn" style="background-color: rgb(77, 196, 200); color: white;" data-bs-container="body" data-toggle="popover" data-bs-placement="bottom" data-toggle="popover"   data-bs-content="Campos apagados">
-                        <i class="bi bi-x-circle" style="color:white"></i> Limpar
-                    </button>
-                    <br>
-                    <p class="txtSenha">
-                      <a href="EsqueceuSenha.html">Esqueceu a Senha?</a>
-                    </p>
-                </div>
-            </div>   
-            </form>
-          </div>
-      </div>
-
+    
+<div class="container main d-flex justify-content-center align-items-center">
+  <div class="col-md-6 col-sm-12">
+    <div class="text-center mb-4">
+      <img src="images/Shar.Ed_logo.png" class="img-thumbnail foto" alt="Logo SharEd" style="width: 182px;height: 185.017px;">
     </div>
+    <div class="login">
+      <h1 style="text-align: center;">
+        <span class="titulo" style="background: var(--Color-Style-Padrao-BG-Horizontal, linear-gradient(91deg, #00908C 1.1%, #130090 129.87%));-webkit-background-clip: text;background-clip: text;color: transparent;">Login</span>
+    </h1>
+      <form action="" class="needs-validation" novalidate>
+        <label for="exampleFormControlInput1" class="floating">Email</label>
+        <div class="input-text mb-3">
+          <input type="text" class="form-control" id="exampleFormControlInput1" required>
+          <i class="bi bi-envelope"></i>
+          <div class="invalid-feedback">
+            Campo obrigatório!
+          </div>
+        </div>
+        <label for="inputSenha" class="form-label">Senha</label>
+        <div class="input-text mb-3">
+          <input type="password" class="form-control" id="inputSenha" required>
+          <i class="bi bi-lock"></i>
+          <div class="invalid-feedback">
+            Campo obrigatório!
+          </div>
+        </div>
+        <div class="col-12 mb-3 text-center">
+          <a href="VisuTurma.html"><button value="Enviar" class="btn btn-warning me-2 menuFonte" style="color: var(--Color-Style-Padrao-White, var(--Color, #FFF));font-family: Open Sans;font-size: 15px;font-style: normal;font-weight: 400;border-radius: 5px;background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(91deg, #00908C 1.1%, #130090 129.87%);">
+              <i class="bi bi-send" style="color:white"></i> Enviar
+            </button></a>
+          <button type="reset" value="Limpar" class="btn btn-warning me-2 menuFonte" style="background-color: #00908C; color: white;font-family: Open Sans;font-size: 15px;font-style: normal;font-weight: 400;border-radius: 5px;" data-bs-container="body" data-toggle="popover" data-bs-placement="bottom" data-toggle="popover"   data-bs-content="Campos apagados">
+            <i class="bi bi-x-circle" style="color:white"></i> Limpar
+          </button>
+          <br>
+          <p class="txtSenha">
+            <a href="EsqueceuSenha.html" style="color: var(--Color-Style-Padrao-White, var(--Color, #00908C));">Esqueceu a Senha?</a>
+          </p>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
 
 
 
